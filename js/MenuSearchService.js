@@ -1,4 +1,5 @@
-function MenuSearchService(){
-	var name = this;
-	name.data = "i am connected"
-}
+app.service('MenuSearchService', function(){
+	// $scope.meme="wewe"
+	var search = this;
+	search.server= "wewe";
+})
